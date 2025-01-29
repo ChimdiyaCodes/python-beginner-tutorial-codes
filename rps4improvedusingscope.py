@@ -1,4 +1,4 @@
-# improving rps using recursive function
+# improving rps using scope function
 
 import sys
 import random
