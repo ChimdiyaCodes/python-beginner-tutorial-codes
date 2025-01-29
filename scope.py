@@ -8,10 +8,6 @@ def beauty():
     count += 1
     print(count)
 
-
-# global performs the same function as non local
-
-
     def greeting(name):
         nonlocal color
         color = "red"
