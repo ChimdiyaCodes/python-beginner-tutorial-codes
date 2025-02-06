@@ -1,4 +1,4 @@
-# improving rps using f string function
+# building a game that allows a user guess the number the computer is thinking
 
 import sys
 import random
