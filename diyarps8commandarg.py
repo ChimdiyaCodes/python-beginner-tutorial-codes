@@ -1,4 +1,4 @@
-# improving rps using f string function
+# improving rps using command argument function
 
 import sys
 import random
@@ -81,7 +81,10 @@ def rps(name='PlayerOne'):
         else:
             print("\n🎉 🎉 🎉 🎉")
             print("Thank you for playing!\n")
-            sys.exit(f"Bye {name}! 👋")
+            if __name__ == "__main__":
+                sys.exit(f"Bye {name}! 👋")
+            else:
+                return
 
     return play_rps
 
@@ -103,3 +106,5 @@ if __name__ == "__main__":
 
     rock_paper_scissors = rps(args.name)
     rock_paper_scissors()
+
+    # command line argument: py rps8.py -n Chimdiya
